@@ -171,14 +171,13 @@
 }
 
 .keyboard-reactions-container {
-   border: 5px solid blue;
    width: 70%;
    margin: 1em auto 0em auto;
-   height: 6vh;
+   height: 4.5vh;
    position: relative;
    display: flex;
    flex-direction: row;
-   justify-content: flex-start;
+   justify-content: space-between;
 }
 
 .main-card-image {
@@ -304,4 +303,32 @@
 
 .react-button-container:hover {
    transform: scale(1.1);
+}
+
+.hide-icon {
+   background-color: rgb(221, 221, 221);
+   border-radius: 20px;
+   width: 8%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.8em;
+   color: white;
+   text-decoration: none;
+}
+
+.hide-icon:hover {
+   background-color: rgb(43, 43, 43);
+   color: white;
+   text-decoration: none;
+}
+
+.key-icon {
+   color: rgb(100, 100, 100);
+   margin: 0em 1em;
+   font-size: 0.6em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
